@@ -116,8 +116,21 @@ __eslint-plugin-cypress__: Cypress용 ESLint 플러그인 __(+Cypress)__<br>
 
 ```json
 {
+   "eslint.validate": [
+        "vue",
+        "javascript",
+        "javascriptreact",
+        "html"
+    ],
+    "eslint.alwaysShowStatus": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   }
 }
 ```
+
+# 추가내용
+- vscode 확장 프로그램 ESLint 설치
+- `eslint --init` 후 작성해놓은 .eslintrc.js 덮어씌움
+- 전역패키지 npm, eslint, @vue/cli 필요  
+
