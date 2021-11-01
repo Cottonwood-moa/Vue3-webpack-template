@@ -133,4 +133,4 @@ __eslint-plugin-cypress__: Cypress용 ESLint 플러그인 __(+Cypress)__<br>
 - vscode 확장 프로그램 ESLint 설치
 - `eslint --init` 후 작성해놓은 .eslintrc.js 덮어씌움
 - 전역패키지 npm, eslint, @vue/cli 필요  
-
+- (https://sunmon.github.io/vscode-eslint-prettier-setting/) 참조하면 좋음
